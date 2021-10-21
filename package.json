@@ -1,10 +1,10 @@
 {
-    "name": "Waldorfshop3",
+    "name": "Sekem2",
     "license": "AGPL-3.0",
     "version": "5.0.33",
     "repository": {
         "type": "git",
-        "url": "https://github.com/waldorfweb/pp-waldorfshop-02.git"
+        "url": "https://github.com/waldorfweb/pp-sekem-02.git"
     },
     "scripts": {
         "start": "webpack --watch --progress",
