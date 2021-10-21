@@ -1,10 +1,10 @@
 {
     "version": "5.0.4",
     "license": "AGPL-3.0",
-    "name": "Waldorfshop3",
+    "name": "Sekem2",
     "marketplaceName": {
-        "de": "Waldorfshop3",
-        "en": "Waldorfshop3"
+        "de": "Sekem2",
+        "en": "Sekem2"
     },
     "pluginIcon": "icon_plugin_xs.png",
     "authorIcon": "icon_author_xs.png",
@@ -12,10 +12,10 @@
     "phone": "",
     "description": "Waldorf theme for Ceres.",
     "shortDescription": {
-        "de": "Waldorf theme 02 für Ceres.",
-        "en": "Waldorf theme 02 for Ceres."
+        "de": "Sekem theme 02 für Ceres.",
+        "en": "Sekem theme 02 for Ceres."
     },
-    "namespace": "Waldorfshop3",
+    "namespace": "Sekem2",
     "author": "Universnatur GmbH",
     "keywords": [
         "plentymarkets",
@@ -37,5 +37,5 @@
         "name": "Head: Google Tag Manager",
         "description": "Add data layer before google tag manager"
     }],
-    "serviceProvider": "Waldorfshop3\\Providers\\ThemeServiceProvider"
+    "serviceProvider": "Sekem2\\Providers\\ThemeServiceProvider"
 }
