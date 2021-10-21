@@ -198,7 +198,7 @@
         "isShopBuilder": {{ isShopBuilder | default(false) | json_encode }},
         "bundleSetting": {{ webstoreConfig.dontSplitItemBundle | default(1) }},
         "initialPleaseSelect": {{ webstoreConfig.attributeSelectDefaultOption | default(0) }},
-        "publicPath": "{{ plugin_path('Waldorfshop2') ~ '/js/dist/' }}",
+        "publicPath": "{{ plugin_path('Sekem2') ~ '/js/dist/' }}",
         "isCheapestSorting": "{{ services.template.isCheapestSorting() }}",
         "initialData": {
             "shippingCountries": {{ services.country.getActiveCountriesList() | filterFields(["id", "currLangName", "isoCode2", "states.id", "states.name", "vatCodes"]) | json_encode | raw }},
@@ -224,15 +224,15 @@
     {% set minSuffix = '' %}
 {% endif %}
 
-<!-- SSR:entry({{ ssr_entry('Waldorfshop2', 'resources/js/dist/ceres-server' ~ minSuffix ~ '.js') }}) -->
+<!-- SSR:entry({{ ssr_entry('Sekem2', 'resources/js/dist/ceres-server' ~ minSuffix ~ '.js') }}) -->
 <!-- SSR:on() -->
-<script src="{{ plugin_path('Waldorfshop2') }}/js/dist/ceres-client{{ minSuffix }}.js?v={{ buildHash }}"></script>
+<script src="{{ plugin_path('Sekem2') }}/js/dist/ceres-client{{ minSuffix }}.js?v={{ buildHash }}"></script>
 <!-- /SSR -->
 <!-- SSR:off() -->
-<script src="{{ plugin_path('Waldorfshop2') }}/js/dist/{{ assetName }}{{ minSuffix }}.js?v={{ buildHash }}"></script>
+<script src="{{ plugin_path('Sekem2') }}/js/dist/{{ assetName }}{{ minSuffix }}.js?v={{ buildHash }}"></script>
 <!-- /SSR -->
 
-<script src="{{ plugin_path('Waldorfshop2') }}/js/dist/wd_custom.js"></script>
+<script src="{{ plugin_path('Sekem2') }}/js/dist/wd_custom.js"></script>
 
 {% for scriptTemplate in get_additional_scripts() %}
     {% include scriptTemplate.path ignore missing with scriptTemplate.params %}

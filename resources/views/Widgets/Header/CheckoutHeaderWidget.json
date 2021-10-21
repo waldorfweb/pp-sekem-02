@@ -1,11 +1,11 @@
 {
-    "identifier": "Waldorfshop2::CheckoutHeaderWidget",
+    "identifier": "Sekem2::CheckoutHeaderWidget",
     "label": "Widget.checkoutHeader",
     "previewImageURL": "/images/dia-widgets/header-checkout-navbar.png",
     "type": "header",
     "categories": ["dia"],
     "position": 0,
-    "widgetClass": "Waldorfshop2\\Widgets\\Header\\CheckoutHeaderWidget",
+    "widgetClass": "Sekem2\\Widgets\\Header\\CheckoutHeaderWidget",
     "settings": {
         "companyLogoUrl": {
             "type": "file",

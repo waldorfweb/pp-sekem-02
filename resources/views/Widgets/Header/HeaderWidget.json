@@ -1,11 +1,11 @@
 {
-    "identifier": "Waldorfshop2::HeaderWidget",
+    "identifier": "Sekem2::HeaderWidget",
     "label": "Widget.Header",
     "previewImageURL": "/images/dia-widgets/header-navbar.png",
     "type": "header",
     "categories": ["dia"],
     "position": 0,
-    "widgetClass": "Waldorfshop2\\Widgets\\Header\\HeaderWidget",
+    "widgetClass": "Sekem2\\Widgets\\Header\\HeaderWidget",
     "settings": {
         "enableLanguageSelect": {
             "type": "checkbox",
